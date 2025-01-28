@@ -1,0 +1,164 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.headban {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 200px;
+}
+
+.headban h1 {
+    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.transban {
+    margin: 10px;
+    background-color: #47a5fd;
+    border: 1px solid #fdfd88;
+    background: rgba(59, 193, 255, 0.5);
+    border-radius: 10px;
+}
+
+.headban:hover {
+    transform: scale(101%);
+    transition-duration: 0.5s;
+}
+
+.vision {
+    border: 1px solid black;
+    width: 250px;
+    height: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.vision:hover {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+.position {
+    position: absolute;
+    left: 40%;
+    top: 20%;
+    font-size: 20px;
+    background: rgba(185, 228, 248, 0.5);
+    border-radius: 10px;
+}
+
+.mission {
+    border: 1px solid black;
+    width: 450px;
+    height: 100%;
+    text-align: center;
+    margin: 20px;
+    padding: 30px;
+}
+
+.mission:hover {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+
+.positiontwo {
+    position: absolute;
+    left: 65%;
+    top: 20%;
+    font-size: 20px;
+    background: rgba(185, 228, 248, 0.5);
+    border-radius: 10px;
+}
+
+.image {
+    margin: 20px;
+}
+
+.image:hover {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+.frame img {
+    position: absolute;
+    border: 10px solid rgba(155, 236, 250, 0.5);
+    border-style: double solid;
+    bottom: 2px;
+}
+
+.foot p {
+    border: 10px solid black;
+    border-style: double solid;
+    padding: 10px 10px;
+    position: absolute;
+    bottom: 20px;
+    width: 200px;
+    right: 50px;
+    border-color: rgba(155, 236, 250, 0.5);
+    background-color: rgb(255, 255, 255);
+    color: rgb(10, 55, 77);
+}
+
+.foot:hover #try {
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+.button {
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgba(185, 228, 248, 0.5);
+    position: relative;
+    left: 20%;
+    top: 150px;
+}
+
+.pop{
+    margin: 40px 10px;
+}
+
+#info .button:hover{
+    transform: scale(105%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#school .button:hover{
+    transform: scale(105%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#yobuddy .button:hover{
+    transform: scale(105%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+#wspfam .button:hover{
+    transform: scale(105%);
+    transition-duration: 0.5s;
+    cursor: pointer;
+}
+
+.button a {
+    text-decoration: none;
+    color: black;
+}

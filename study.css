@@ -1,0 +1,59 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+}
+
+.homepage {
+    border: 1px solid black;
+    margin: 20px;
+    width: 80px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 10px 0px;
+    position: relative;
+    left: 1%;
+    position: absolute;
+    bottom: 10px;
+}
+
+.homepage:hover {
+    cursor: pointer;
+    transform: scale(105%);
+    transition-duration: 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+th, td {
+    padding: 5px;
+    text-align: left;
+}
+
+table {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    background-color: rgba(173, 216, 230, 0.5);
+    font-size: 20px;
+}
+
+.tabler th, .tablerr td {
+    border: 1px solid black;
+}
+
+.tabler {
+    max-height: 300px;
+    overflow: auto;
+    margin: 20px auto;
+    width: 90%;
+}
